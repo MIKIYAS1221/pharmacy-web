@@ -25,7 +25,7 @@ const columns = [
   { field: 'expiry_date', headerName: 'Expiry Date', flex: 1 },
 ];
 
-export default function Supplier() {
+export default function Purchaseorders() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
